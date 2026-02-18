@@ -269,7 +269,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div align="center">
-          <img src="static/images/pipeline.png">
+          <img src="static/images/pipline.pdf">
         </div>
         <div class="content has-text-justified">
           <p>
@@ -318,7 +318,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/SQQ9htO1wSA?si=8nrj-VfSXb081au_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2Vq8KBfGLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -340,87 +340,76 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop has-text-centered">
-    <h2 class="title">Albedo results and relighting results</h2>
-    <div class="hero-body">
-      <div class="columns is-centered has-text-centered">
-        <div class="column">
-          <div class="content">
-            <div class="b-dics">
-              <img src="static/images/nvdiffrec_materials_kd.png" alt="NVDiffRec" />
-              <img src="static/images/materials_kd.png" alt="OURS" />
-              <img src="static/images/nvdiffrecmc_materials_kd.png" alt="NVDiffRecMC" />
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <div class="b-dics">
-              <img src="static/images/materials.png" alt="OURS" />
-              <img src="static/images/r_187.png" alt="GT" />
-              <img src="static/images/nvdiffrecmc_materials.png" alt="NVDiffRecMC" />
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <div class="b-dics">
-              <img src="static/images/nvdiffrec_materials_ks.png" alt="NVDiffRec" />
-              <img src="static/images/materials_ks.png" alt="OURS" />
-              <img src="static/images/nvdiffrecmc_materials_ks.png" alt="NVDiffRecMC" />
-            </div>
-          </div>
-        </div>
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Whole-Body Tracking Demos</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/ppt_1_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
       </div>
-    </div>
-    <div class="hero-body">
-      <div class="columns is-centered has-text-centered">
-        <div class="column">
-          <div class="content">
-            <div class="b-dics">
-              <img src="static/images/val_000018_kd.png" alt="NVDiffRec" />
-              <img src="static/images/table_horse_kd.png" alt="OURS" />
-              <img src="static/images/mc_val_000018_kd.png" alt="NVDiffRecMC" />
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <div class="b-dics">
-              <img src="static/images/table-horse.png" alt="OURS" />
-              <img src="static/images/table_horse_gt.png" alt="GT" />
-              <img src="static/images/nvdiffrecmc_table_horse.png" alt="NVDiffRecMC" />
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <div class="b-dics">
-              <img src="static/images/val_000018_ks.png" alt="NVDiffRec" />
-              <img src="static/images/table_horse_ks.png" alt="OURS" />
-              <img src="static/images/mc_val_000018_ks.png" alt="NVDiffRecMC" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_2_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      <!-- </div>
+        <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div> -->
     </div>
   </div>
 </section>
 
-<section>
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-    <h2 class="title is-3 columns is-centered has-text-centered">Relighting</h2>
-
-    <div align="center">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/relight.mp4" type="video/mp4">
-      </video>
-    </div>
-      
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Robustness Demos</h2>
+    <!-- <p class="has-text-centered" style="font-size: 1.2rem; margin-bottom: 2rem;">
+      Below are 24 clips from policies trained on 14 distinct ~3-minute sequences, all using <strong>exactly the same MDP setup and hyperparameters<strong></strong>.
+    </p> -->
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_4_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/1.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      <!-- </div>
+        <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div> -->
     </div>
   </div>
+</section>
 
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Long-Horizon Loco-Manipulation Demos</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_5_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_6_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      <!-- </div>
+        <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Long-Term Stability Demos</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_7_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_8_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      <!-- </div>
+        <div class="column is-full-width is-centered has-text-centered">
+        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div> -->
+    </div>
+  </div>
 </section>
 
       
@@ -428,12 +417,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{zhu2024multitimesmontecarlorendering,
-   author = {Tengjie Zhu and Zhuo Chen and Jingnan Gao and Yichao Yan and Xiaokang Yang},
-   title = {Multi-times Monte Carlo Rendering for Inter-reflection Reconstruction},
-   year = {2024},
-   eprint ={ 2407.05771},
-   archivePrefix={arXiv},
+    <pre><code>@misc{zhu2026clotclosedloopglobalmotion,
+      title={CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation}, 
+      author={Tengjie Zhu and Guanyu Cai and Yang Zhaohui and Guanzhu Ren and Haohui Xie and ZiRui Wang and Junsong Wu and Jingbo Wang and Xiaokang Yang and Yao Mu and Yichao Yan and Yichao Yan},
+      year={2026},
+      eprint={2602.15060},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2602.15060}, 
 }</code></pre>
   </div>
 </section>
