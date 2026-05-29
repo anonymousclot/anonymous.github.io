@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Project page for closed-loop global motion tracking for whole-body humanoid teleoperation.">
+  <meta name="keywords" content="Humanoid Teleoperation, Motion Tracking, Whole-Body Control">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="static/css/dics.css">
@@ -20,85 +20,21 @@
         })
       );
     }  
-	</script>
-  <title>CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
   </script>
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <title>CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation</title>
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
 </head>
 <body>
-
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav> -->
-
-
-
 
 <section class="hero">
   <div class="hero-body">
@@ -108,81 +44,12 @@
           <h1 class="title is-1 publication-title">CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation</h1>
           <div class="is-size-5 publication-authors">
             <p style="font-size: 1.5rem;">
-              <a href="https://scholar.google.com/citations?user=V7BopvYAAAAJ&hl=en&oi=ao">Tengjie Zhu<sup>1,2,*</sup></a>, 
-              <a href="index.html">Guanyu Cai<sup>1,*</sup></a>, 
-              <a href="index.html">Zhaohui Yang<sup>1,*</sup></a>,
-              <a href="index.html">Guanzhu Ren<sup>1</sup></a>,
-              <a href="index.html">Haohui Xie<sup>1</sup></a>,
-              <a href="index.html">Junsong Wu<sup>1</sup></a>,
-              <a href="index.html">Zirui Wang<sup>2</sup></a>,
-              <a href="https://wangjingbo1219.github.io/">Jingbo Wang<sup>2</sup></a>,
-              <a href="https://scholar.google.com/citations?user=yDEavdMAAAAJ&hl=en&oi=ao">Xiaokang Yang<sup>1</sup></a>,
-              <a href="https://yaomarkmu.github.io/">Yao Mu<sup>1,2,†</sup></a>,
-              <a href="https://daodaofr.github.io/">Yichao Yan<sup>1,†</sup></a>
+              Anonymous Authors
             </p>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span class="author-block"><sup>2</sup>Shanghai AI Laboratory</span>
-          </div>
-
-	<div class="is-size-6 publication-authors">
-            <span class="author-block">*Authors with equal contribution, †Corresponding author</span>
-          </div>
-	<!-- <div class="is-size-4">NeurIPS 2024</div> -->
-
-          <div class="column has-text-centered">
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2602.15060"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/embed/Z2Vq8KBfGLc"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/zhutengjie/CLOT "
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-              <!-- Hugging Face Link. -->
-              <span class="link-block">
-                <a href="https://huggingface.co/datasets/Zhutengjie/human_motion"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-database"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-              </span>
-              <!-- Dataset Link. -->
-<!--               <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
-            </div>
-
+            <span class="author-block">Anonymous Affiliation(s)</span>
           </div>
         </div>
       </div>
@@ -204,67 +71,8 @@
 </section>
 
 
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -284,58 +92,11 @@
             with an adversarial motion prior to suppress unnatural behaviors. To support CLOT, we collect 20 hours of carefully curated human motion data 
             for training the humanoid teleoperation policy. We design a transformer-based policy and train it for over 1300 GPU hours. The policy is deployed 
             on a full-sized humanoid with 31 DoF (excluding hands). Both simulation and real-world experiments verify high-dynamic motion, high-precision tracking, 
-            and strong robustness in sim-to-real humanoid teleoperation. Motion data, demos and code can be found in our website.
+            and strong robustness in sim-to-real humanoid teleoperation.
           </p>
-          <!-- <p>
-            In this work, we propose Ref-MC2 that introduces the multi 
-            time Monte Carlo sampling which comprehensively computes the environmental
-            illumination and meanwhile considers the reflective light from object surfaces. To
-            address the computation challenge as the times of Monte Carlo sampling grow,
-            we propose a specularity-adaptive sampling strategy, significantly reducing the
-            computational complexity. Besides the computational resource, higher geometry
-            accuracy is also required because geometric errors accumulate multiple times.
-            Therefore, we further introduce a reflection-aware surface model to initialize the
-            geometry and refine it during inverse rendering. We construct a challenging dataset
-            containing scenes with multiple objects and inter-reflections. Experiments show
-            that our method outperforms other inverse rendering methods on various object
-            groups. We also show downstream applications, e.g., relighting and material
-            editing, to illustrate the disentanglement ability of our method.
-            <br>
-            <br>
-          </p> -->
-       
-        
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-
-
-    
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2Vq8KBfGLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-    <!-- <div class="container is-max-desktop">
-      <div class="hero-body">
-      <h2 class="title is-3 columns is-centered has-text-centered">Video</h2>
-
-      <div align="center">
-        <video id="teaser" autoplay muted loop playsinline height="100%">
-          <source src="./static/videos/introduce.mp4" type="video/mp4">
-        </video>
-      </div> -->
-        
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -348,10 +109,7 @@
       </div>
       <div class="column is-full-width is-centered has-text-centered">
         <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_2_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      <!-- </div>
-        <div class="column is-full-width is-centered has-text-centered">
-        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div> -->
+      </div>
     </div>
   </div>
 </section>
@@ -359,19 +117,13 @@
 <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;">Robustness Demos</h2>
-    <!-- <p class="has-text-centered" style="font-size: 1.2rem; margin-bottom: 2rem;">
-      Below are 24 clips from policies trained on 14 distinct ~3-minute sequences, all using <strong>exactly the same MDP setup and hyperparameters<strong></strong>.
-    </p> -->
     <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
         <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_4_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
       </div>
       <div class="column is-full-width is-centered has-text-centered">
         <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/1.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      <!-- </div>
-        <div class="column is-full-width is-centered has-text-centered">
-        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div> -->
+      </div>
     </div>
   </div>
 </section>
@@ -386,10 +138,7 @@
       </div>
       <div class="column is-full-width is-centered has-text-centered">
         <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_6_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      <!-- </div>
-        <div class="column is-full-width is-centered has-text-centered">
-        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div> -->
+      </div>
     </div>
   </div>
 </section>
@@ -404,31 +153,10 @@
       </div>
       <div class="column is-full-width is-centered has-text-centered">
         <video autoplay loop muted playsinline src="static/videos/videos/motion_tracking/PPT_8_new.mp4" poster="static/videos/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      <!-- </div>
-        <div class="column is-full-width is-centered has-text-centered">
-        <video autoplay loop muted playsinline src="static/videos/motion_tracking/prep_IMG_2661.mp4" poster="static/videos/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div> -->
+      </div>
     </div>
   </div>
 </section>
-
-      
-
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{zhu2026clot,
-  title={CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation},
-  author={Zhu, Tengjie and Cai, Guanyu and Zhaohui, Yang and Ren, Guanzhu and Xie, Haohui and Wang, ZiRui and Wu, Junsong and Wang, Jingbo and Yang, Xiaokang and Mu, Yao and others},
-  journal={arXiv preprint arXiv:2602.15060},
-  year={2026}
-}
-}</code></pre>
-  </div>
-</section>
-
-
-
 
 </body>
 </html>
