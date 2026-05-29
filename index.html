@@ -82,17 +82,7 @@
         <div class="content has-text-justified">
           <p>
             <br>
-            Long-horizon whole-body humanoid teleoperation remains challenging due to accumulated global pose drift, particularly on full-sized humanoids. 
-            Although recent learning-based tracking methods enable agile and coordinated motions, they typically operate in the robot's local frame and neglect
-            global pose feedback, leading to drift and instability during extended execution. In this work, we present CLOT, a real-time wholebody humanoid 
-            teleoperation system that achieves closed-loop global motion tracking via high-frequency localization feedback. CLOT synchronizes operator and 
-            robot poses in a closed loop, enabling drift-free human-to-humanoid mimicry over long time horizons. However, directly imposing global tracking 
-            rewards in reinforcement learning, often results in aggressive and brittle corrections. To address this, we propose a data-driven randomization strategy 
-            that decouples observation trajectories from reward evaluation, enabling smooth and stable global corrections. We further regularize the policy 
-            with an adversarial motion prior to suppress unnatural behaviors. To support CLOT, we collect 20 hours of carefully curated human motion data 
-            for training the humanoid teleoperation policy. We design a transformer-based policy and train it for over 1300 GPU hours. The policy is deployed 
-            on a full-sized humanoid with 31 DoF (excluding hands). Both simulation and real-world experiments verify high-dynamic motion, high-precision tracking, 
-            and strong robustness in sim-to-real humanoid teleoperation.
+            Long-horizon whole-body humanoid teleoperation remains challenging due to accumulated global pose drift, particularly on full-sized humanoids. Although recent whole-body tracking methods enable agile and coordinated motions, they typically operate in the robot's local frame, leading to drift and instability during extended execution. We propose CLOT, a closed-loop real-time teleoperation system that utilizes localization feedback to synchronize human motion inputs with the robot's global pose. Directly imposing global tracking rewards in reinforcement learning often leads to aggressive and brittle corrections. We therefore introduce Observation Pre-shift, a data-driven randomization strategy that decouples observed reference previews from reward-aligned targets, thereby encouraging smooth global recovery. CLOT enables drift-free, long-horizon teleoperation on a full-sized 31-DoF humanoid. By integrating a Transformer-based policy trained on 20 hours of curated human motion data, the proposed framework exhibits high-precision tracking, stable loco-manipulation, and robust disturbance rejection. 
           </p>
         </div>
       </div>
